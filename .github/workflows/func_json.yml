@@ -1,7 +1,7 @@
 name: JSON function
 on: push
 jobs:
-	dump:
+	dump-value:
 		runs-on: ubuntu-latest
 		steps:
 			- run: echo "${CONTEXT}"
