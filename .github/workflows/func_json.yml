@@ -1,9 +1,9 @@
 name: JSON function
 on: push
 jobs:
-	dump-value:
-		runs-on: ubuntu-latest
-		steps:
-			- run: echo "${CONTEXT}"
-			  env:
-					CONTEXT: ${{ toJSON(github) }}
+    dump-value:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "${CONTEXT}"
+              env:
+                    CONTEXT: ${{ toJSON(github) }}
