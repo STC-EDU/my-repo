@@ -1,5 +1,6 @@
 name: JSON function
-on: push
+on:
+    workflow_dispatch:
 jobs:
     dump-value:
         runs-on: ubuntu-latest
