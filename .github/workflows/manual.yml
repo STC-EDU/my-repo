@@ -9,6 +9,6 @@ on:
         description: A cheerful workflow_dispatch
 jobs:
   run:
-    runs-on: ubuntu-lates
+    runs-on: ubuntu-latest
     steps:
       - run: echo "${{ inputs.greeting }}"
